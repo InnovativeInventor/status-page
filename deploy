@@ -27,7 +27,7 @@
 
 echo "Sending to AWS"
 
-aws s3 sync * s3://status.homelabs.space --exclude "*.git*"
+aws s3 sync . s3://status.homelabs.space --exclude "*.git*"
 
 git add -A
 git commit -a
