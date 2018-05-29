@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homelabs Status Page</title>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700,300|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" media="screen" href="style.css" />
+<meta content='width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1' name='viewport' />
+</head>
+<body>
+
+<header class='siteHeader ' >
+
+  <p class='siteHeader__subscribe'>
+    <a class='siteHeader__button' href='/subscribe'>GitHub</a>
+  </p>
+
+  <div class='container'>
+    <p class='siteHeader__title'>The Homelabs Status Page</p>
+    <p class='siteHeader__subTitle'>Hopefully there isn't a problem with homelabs.space, but any reported issues will be listed here.</p>
+  </div>
+</header>
+
+<div class='container'>
+
+  <!-- <section class='ongoingIssues'>
+    <a href='/issue/ef21b48a-3e5e-4e6d-9f84-7d00df1acd47' class='issueBanner issueBanner--monitoring'>
+      <p class='issueBanner__state'>Monitoring</p>
+      <h2>Network Connectivity Issues</h2>
+      <p class='issueBanner__time'>still ongoing</p>
+    </a>
+  </section> -->
+
+  <!-- <section class='ongoingIssues'>
+    <a href='/maintenance/d12e3170-90f4-433b-acce-9df57afc04ef' class='issueBanner issueBanner--maintenance'>
+      <p class='issueBanner__state'>Maintenance</p>
+      <h2>Software Upgrades</h2>
+      <p class='issueBanner__time'>due to finish at _____ </p>
+
+    </a>
+  </section> -->
+
+  <section class='serviceGroup'>
+    <ul class='serviceList serviceGroup__list'>
+      <li class='serviceList__item'>
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--minor" style="color:#E67E22">Partial Outage</span></p> -->
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--major" style="color:#E74C3C">Major Outage</span></p> -->
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--maintenance" style="color:#AAAAAA">Maintenance</span></p> -->
+        <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--ok" style="color:#2FCC66">Operational</span></p>
+
+        <p class='serviceList__name'>
+          <a href="https://ideas.homelabs.space">ideas.homelabs.space</a>
+          <span class='serviceList__description' data-tooltip="My personal projects website"></span>
+        </p>
+      </li>
+      <li class='serviceList__item'>
+        <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--minor" style="color:#E67E22">Partial Outage</span></p>
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--major" style="color:#E74C3C">Major Outage</span></p> -->
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--maintenance" style="color:#AAAAAA">Maintenance</span></p> -->
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--ok" style="color:#2FCC66">Operational</span></p> -->
+
+        <p class='serviceList__name'>
+          <a href="https://lt.homelabs.space">lt.homelabs.space</a>
+          <span class='serviceList__description' data-tooltip="A free grammar checker powered by LanguageTool"></span>
+        </p>
+      </li>
+      <li class='serviceList__item'>
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--minor" style="color:#E67E22">Partial Outage</span></p> -->
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--major" style="color:#E74C3C">Major Outage</span></p> -->
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--maintenance" style="color:#AAAAAA">Maintenance</span></p> -->
+        <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--ok" style="color:#2FCC66">Operational</span></p>
+
+        <p class='serviceList__name'>
+          <a href="https://malaria.homelabs.space">Fu-Malaria</a>
+          <span class='serviceList__description' data-tooltip="A website that aims to detect malaria through computer vision"></span>
+        </p>
+      </li>
+      <li class='serviceList__item'>
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--minor" style="color:#E67E22">Partial Outage</span></p> -->
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--major" style="color:#E74C3C">Major Outage</span></p> -->
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--maintenance" style="color:#AAAAAA">Maintenance</span></p> -->
+        <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--ok" style="color:#2FCC66">Operational</span></p>
+
+        <p class='serviceList__name'>
+          <a href="https://twitter.homelabs.space">twitter.homelabs.space</a>
+          <span class='serviceList__description' data-tooltip="A project that allows you to make your own realistic Twitter page and share it."></span>
+        </p>
+      </li>
+      <li class='serviceList__item'>
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--minor" style="color:#E67E22">Partial Outage</span></p> -->
+        <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--major" style="color:#E74C3C">Major Outage</span></p>
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--maintenance" style="color:#AAAAAA">Maintenance</span></p> -->
+        <!-- <p class='serviceList__status'><span class="serviceStatusTag serviceStatusTag--ok" style="color:#2FCC66">Operational</span></p> -->
+
+        <p class='serviceList__name'>
+          <a href="http://homelabs.space:2052">Proof of Freshness</a>
+          <span class='serviceList__description' data-tooltip="A website demonstrating proof of freshness"></span>
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <div class='staytusDemo'>
+    <p>
+      This status site is modeled off of <a href="https://staytus.co/">Staytus<a> and is manually updated as issues are reported.
+    </p>
+  </div>
+
+</div>
+
+
+  <footer class='siteFooter'>
+    <div class='container'>
+      <ul class='siteFooter__nav'>
+        <li><a href='https://homelabs.space'>Home</a></li>
+        <li><a href=''>GitHub</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
